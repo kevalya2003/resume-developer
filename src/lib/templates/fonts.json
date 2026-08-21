@@ -1,0 +1,60 @@
+{
+  "comment": "Single source of truth for the bundled fonts. Read by src/lib/templates/fonts.ts at runtime and by scripts/sync-fonts.mjs at build time, so the browser and the PDF renderer can never disagree about which files exist.",
+  "fileNamePattern": "<slug>-<subset>-<weight>-normal.woff2",
+  "fonts": [
+    {
+      "family": "Carlito",
+      "pkg": "@fontsource/carlito",
+      "slug": "carlito",
+      "weights": [400, 700],
+      "subsets": ["latin", "latin-ext"],
+      "metricMatch": "Calibri",
+      "licence": "OFL-1.1"
+    },
+    {
+      "family": "Arimo",
+      "pkg": "@fontsource/arimo",
+      "slug": "arimo",
+      "weights": [400, 700],
+      "subsets": ["latin", "latin-ext"],
+      "metricMatch": "Arial",
+      "licence": "OFL-1.1"
+    },
+    {
+      "family": "Gelasio",
+      "pkg": "@fontsource/gelasio",
+      "slug": "gelasio",
+      "weights": [400, 700],
+      "subsets": ["latin", "latin-ext"],
+      "metricMatch": "Georgia",
+      "licence": "OFL-1.1"
+    },
+    {
+      "family": "Tinos",
+      "pkg": "@fontsource/tinos",
+      "slug": "tinos",
+      "weights": [400, 700],
+      "subsets": ["latin", "latin-ext"],
+      "metricMatch": "Times New Roman",
+      "licence": "Apache-2.0"
+    },
+    {
+      "family": "EB Garamond",
+      "pkg": "@fontsource/eb-garamond",
+      "slug": "eb-garamond",
+      "weights": [400, 700],
+      "subsets": ["latin", "latin-ext"],
+      "metricMatch": null,
+      "licence": "OFL-1.1"
+    },
+    {
+      "family": "DejaVu Sans",
+      "pkg": "@fontsource/dejavu-sans",
+      "slug": "dejavu-sans",
+      "weights": [400, 700],
+      "subsets": ["latin"],
+      "metricMatch": null,
+      "licence": "Bitstream Vera"
+    }
+  ]
+}

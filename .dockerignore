@@ -1,0 +1,25 @@
+.git
+.github
+node_modules
+.next
+out
+build
+
+# Test output
+test-results
+playwright-report
+blob-report
+coverage
+.playwright-mcp
+
+# Regenerated inside the image by prebuild. Copying the host's copies risks
+# baking in artefacts from a different set of installed font packages.
+public/fonts
+src/lib/templates/generated
+src/app/fonts.css
+
+.env*
+*.log
+*.tsbuildinfo
+.DS_Store
+README.md
